@@ -1,13 +1,14 @@
-package org.ersun.customer;
+package org.ersun;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 
 @SpringBootApplication
 public class CustomerServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CustomerServiceApplication.class,args);
+        SpringApplication.run(CustomerServiceApplication.class, args);
     }
 
 }

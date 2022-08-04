@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false  # Kendisi server olduğundan başka bir serverdan herhangi bir bilgi çekmesine gerek yok.
+    register-with-eureka: false  # kendisi server olduğu için kendi bilgileri ile bir kayıt olma yapmasına gerek yok. O nedenle false olarak ayarladık.
+
+
+spring:
+  application:
+    name: eureka-server
